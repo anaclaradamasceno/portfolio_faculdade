@@ -4,62 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google Fonts -->
+    <!-- Início do uso do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <!-- End of Google Fonts -->
+    <!-- Fim do uso do Google Fonts -->
 
-    <link rel="stylesheet" href="style.css">
-    <script src="menu.js" defer></script>
-    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css"> <!-- referência ao stylesheet em CSS -->
+    <script src="menu.js" defer></script> <!-- referência à automatização em JavaScript -->
+    <title>Portfólio</title> <!-- Título do site -->
 </head>
 
 <body>
-
     <header>
-        <div class="interface">
+        <div class="interface"> <!-- Início da div com os botões no topo do site -->
             <nav class="menu-desktop">
                 <ul>
                     <li><a href="#sobre">Sobre</a></li>
+                    <!-- Ao clicar neste botão, o usuário é redirecionado à aba sobre do site-->
                     <li><a href="#especialidades">Formação</a></li>
+                    <!-- Ao clicar neste botão, o usuário é redirecionado à aba de formações no site-->
                     <li><a href="#portfolio">Portfólio</a></li>
+                    <!-- Ao clicar neste botão, o usuário é redirecionado à aba contendo imagens dos projetinhos-->
                     <li><a href="#contato">Contato</a></li>
+                    <!-- Ao clicar neste botão, o usuário é redirecionado à aba para entrar em contato-->
                 </ul>
             </nav>
-        </div>
+        </div><!-- Fim da div com os botões no topo do site -->
     </header>
-    <main> 
-        <!--
-         <section class="topo-do-site">
-            <div class="interface">
-                <div class="flex">
-                    <div class="txt-topo-site">
-                        <h1> Bem vindo(a) à minha <span>página pessoal.</span></h1>
-                        <p></p>
-                        <div class="btn-contato">
-                            <a href="mailto:acmd9215@gmail.com">
-                                <button>Entre em contato</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>  -->
-        <section class="sobre" id="sobre">
+    <main> <!--conteúdo principal do site-->
+        <section class="sobre" id="sobre"> <!-- Section com a aba sobre -->
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
-                        <img src="images/perfil.jpeg" alt="">
+                        <img src="images/perfil.jpeg"
+                            alt="foto de Ana Clara, com fundo branco. Nessa foto, Ana Clara é uma jovem de 22 anos. Tem pele clara, olhos castanhos, cabelo preto cacheado pentado pro lado direito. Está vestido uma blusa simples azul escuro e sorrindo.">
+                        <!-- Apresentação de imagem e texto alternativo para leitores de tela-->
                     </div>
-                    <div class="txt-sobre">
+                    <div class="txt-sobre"> <!-- Texto da aba sobre-->
                         <h2>MUITO PRAZER, <span>ANA CLARA.</span></h2>
-                        <p>Fascinada pelo mundo de dados, <span>iniciei meus estudos por conta própria em 2022</span>, me guiando pelos requisitos das vagas na área. Após alguns meses, tive a oportunidade de ingressar como <span>Junior numa grande empresa de produtos de petróleo.</span></p>
-                        <p>Eu não sabia o que significava trabalhar no time de <span>Analytics</span>, mas topei o desafio. Desde então minha paixão pela área só aumentou. Nos últimos meses vim estudando sobre IA e <span>espero terminar 2024 com a certificação AI-900 da Microsoft!</span></p>
-                        <p>Amo confeitaria, adoro sair pra patinar aos domingos e sou fissurada em sorvete! Morei 3 anos em Salvador e conheço mais pontos turísticos de lá do que de onde eu nasci! <span>Sou autista, e acredito que meus hiperfocos e compromentimento foram o que impulsionaram a minha carreira.</span></p>
-                        <div class="btn-social">
+                        <p>Fascinada pelo mundo de dados, <span>iniciei meus estudos por conta própria em 2022</span>,
+                            me guiando pelos requisitos das vagas na área. Após alguns meses, tive a oportunidade de
+                            ingressar como <span>Junior numa grande empresa de produtos de petróleo.</span></p>
+                        <p>Eu não sabia o que significava trabalhar no time de <span>Analytics</span>, mas topei o
+                            desafio. Desde então minha paixão pela área só aumentou. Nos últimos meses vim estudando
+                            sobre IA e <span>espero terminar 2024 com a certificação AI-900 da Microsoft!</span></p>
+                        <p>Amo confeitaria, adoro sair pra patinar aos domingos e sou fissurada em sorvete! Morei 3 anos
+                            em Salvador e conheço mais pontos turísticos de lá do que de onde eu nasci! <span>Sou
+                                autista, e acredito que meus hiperfocos e compromentimento foram o que impulsionaram a
+                                minha carreira.</span></p>
+                        <div class="btn-social"> <!--Botões de rede social e e-mail-->
                             <a href="https://www.linkedin.com/in/anaclaramdamasceno/"><button>LinkedIn</button></a>
                             <a href="https://github.com/anaclaradamasceno"><button>Github</button></a>
                             <a href="mailto:acmd9215@gmail.com"><button>E-mail</button></a>
@@ -68,36 +64,43 @@
                 </div>
             </div>
         </section>
-        <section class="especialidades" id="especialidades">
+        <section class="formacao" id="formacao"><!-- section referente à aba de formação-->
             <h2 class="titulo">FORMAÇÃO <span>E EXPERIÊNCIA.</span></h2>
             <div class="flex">
-                <div class="especialidades-box">
-                    <!--
-                    <i class="bi bi-graph-up-arrow"></i>
-                    -->
-                    <h3>Formação acadêmica</h3>
-                    <p>Hoje curso <span>Técnologo em Banco de Dados</span>, e estou focando em estudar <span>IA</span>, <span>Advanced Analytics </span> e algumas <span> Soft Skills</span>.</p>
-                    <p>Concluí a formação <span> Google Data Analytics </span> do Google na plataforma Coursera, <span> Especialização em Engenharia de Dados </span> da Gama Academy, Accreditation Databricks Fundamentals na Databricks Academy, e muitos outros cursos. Além disso, tenho <SPAN>inglês certificado pela TOEIC.</span></p>
-                    <p>Formada em confeitaria, me vi fascinada pelo mundo dos dados. Dei uma pausa no curso <span> Bacharelado em Administração no 6° período </span>para focar na minha verdadeira vocação.</p>
+                <div class="formacao-box">
+                    <h3>Formação acadêmica</h3> <!-- Tópico da aba de formação-->
+                    <p>Hoje curso <span>Técnologo em Banco de Dados</span>, e estou focando em estudar <span>IA</span>,
+                        <span>Advanced Analytics </span> e algumas <span> Soft Skills</span>.</p>
+                    <p>Concluí a formação <span> Google Data Analytics </span> do Google na plataforma Coursera, <span>
+                            Especialização em Engenharia de Dados </span> da Gama Academy, Accreditation Databricks
+                        Fundamentals na Databricks Academy, e muitos outros cursos. Além disso, tenho <SPAN>inglês
+                            certificado pela TOEIC.</span></p>
+                    <p>Formada em confeitaria, me vi fascinada pelo mundo dos dados. Dei uma pausa no curso <span>
+                            Bacharelado em Administração no 6° período </span>para focar na minha verdadeira vocação.
+                    </p>
                 </div>
-                <div class="especialidades-box">
-                    <!--
-                    <i class="bi bi-cookie"></i>
-                    -->
-                    <h3>Experiência prática</h3>
-                    <p>Nos últimos anos tenho atuado principalmente com <span>definição de arquitetura</span>, <span>documentação </span>e <span>provas de conceito</span>. Aprendi bastante sobre <span>cloud</span> trabalhando no ambiente <span>Azure</span>. </p>
-                    <p>Tenho experiência com uso de <span>Python, Pyspark, PySQL e SQL</span>. Habilidades de<span> storytelling </span> e <span> metodologia ágil</span>. Tive experiência prática com ferramentas amplamente utilizadas como <span>Kafka</span> e <span>Databricks</span> e os recursos da cloud <span>Azure</span>.</p>
-                    <p>Tenho experiência com <span>gerenciamento e governança dos desenvolvimentos de extração, transformação e carregamento de dados</span> com amplo conhecimento em <span>Big Data, criptografia e Data Masking</span>.</p>
+                <div class="formacao-box">
+                    <h3>Experiência prática</h3><!-- Tópico da aba de formação-->
+                    <p>Nos últimos anos tenho atuado principalmente com <span>definição de arquitetura</span>,
+                        <span>documentação </span>e <span>provas de conceito</span>. Aprendi bastante sobre
+                        <span>cloud</span> trabalhando no ambiente <span>Azure</span>. </p>
+                    <p>Tenho experiência com uso de <span>Python, Pyspark, PySQL e SQL</span>. Habilidades de<span>
+                            storytelling </span> e <span> metodologia ágil</span>. Tive experiência prática com
+                        ferramentas amplamente utilizadas como <span>Kafka</span> e <span>Databricks</span> e os
+                        recursos da cloud <span>Azure</span>.</p>
+                    <p>Tenho experiência com <span>gerenciamento e governança dos desenvolvimentos de extração,
+                            transformação e carregamento de dados</span> com amplo conhecimento em <span>Big Data,
+                            criptografia e Data Masking</span>.</p>
                 </div>
             </div>
         </section>
-        
-        
-        
-        <section class="portfolio" id="portfolio">
+
+
+
+        <section class="portfolio" id="portfolio"> <!-- section referente à aba de portfolio-->
             <div class="interface">
                 <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
-                <div class="flex">
+                <div class="flex"><!-- display das imagens dos projetinhos que já fiz-->
                     <div class="img-port" style="background-image: url(images/hkittyflutuante.png);">
                         <div class="overlay">Projeto 1</div>
                     </div>
@@ -111,10 +114,10 @@
             </div>
 
         </section>
-        <section class="formulario" id="contato">
+        <section class="formulario" id="contato"> <!-- section referente à aba de contato-->
             <div class="interface">
                 <h2 class="titulo">ENTRE <span>EM CONTATO.</span></h2>
-                <form action="">
+                <form action=""> <!-- criação do formulário com nome, e-mail e mensagem com preenchimento obrigatório-->
                     <input type="text" placeholder="Nome" required>
                     <input type="text" placeholder="E-mail" required>
                     <input type="text" placeholder="Celular">
@@ -124,18 +127,18 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer><!--criação do footer-->
         <div class="interface">
             <div class="line-footer">
                 <div class="flex">
-                    <div class="btn-social">
+                    <div class="btn-social"> <!--Botões de rede social e e-mail-->
                         <a href="https://www.linkedin.com/in/anaclaramdamasceno/"><button>LinkedIn</button></a>
                         <a href="https://github.com/anaclaradamasceno"><button>Github</button></a>
                         <a href="mailto:acmd9215@gmail.com"><button>E-mail</button></a>
                     </div>
                 </div>
             </div>
-            <div class="line-footer borda">
+            <div class="line-footer borda"> <!--Texto de agradecimento no canto inferior esquerdo-->
                 <p>Obrigada pela atenção. Volte sempre!</p>
                 <p>Aluna: Ana Clara Martins Damasceno.</p>
                 <p>RU: 4771859.</p>

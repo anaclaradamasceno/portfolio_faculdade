@@ -1,3 +1,4 @@
+/* Estilo geral */
 * {
     margin: 0;
     padding: 0;
@@ -46,9 +47,7 @@ header {
 header>.interface {
     display: flex;
     align-items: center;
-    /* Centraliza verticalmente */
     justify-content: space-between;
-    /* Distribui os itens com espaço entre eles */
 }
 
 header a {
@@ -115,19 +114,19 @@ section.topo-do-site .flex {
 
 
 
-/* Estilo da aba especialidades*/
-section .especialidades {
+/* Estilo da aba formacao*/
+section .formacao {
     padding: 40px 5%;
 }
 
 
-section .especialidades .flex {
+section .formacao .flex {
     display: flex;
     gap: 60px;
     justify-content: center;
 }
 
-.especialidades .especialidades-box {
+.formacao .formacao-box {
     color: #ffffea;
     padding: 40px;
     margin: 45px;
@@ -137,18 +136,12 @@ section .especialidades .flex {
     box-sizing: border-box;
 }
 
-.especialidades .especialidades-box:hover {
+.formacao .formacao-box:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px #ffffeaa2;
 }
 
-/* .especialidades .especialidades-box i{
-    font-size: 70px;
-    color: #ffffea;
-    align-self: center;
-}
-*/
-.especialidades .especialidades-box h3 {
+.formacao .formacao-box h3 {
     font-size: 28px;
     margin: 15px 0;
     color: #ffffea;
